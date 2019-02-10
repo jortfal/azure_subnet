@@ -39,19 +39,3 @@ variable "subnet_address_prefix" {
 ################################################################################################
 ########                                  Tags Variables                                ########
 ################################################################################################
-
-variable "tag_environment" {
-    description = ""
-    default     = "null"
-}
-
-variable "tag_resource" {
-    description = ""
-    default     = "subnet"
-}
-
-variable "tag_owner" {
-    description = ""
-    type        = "string"
-    default     = "null"
-}
